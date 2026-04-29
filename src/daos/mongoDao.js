@@ -1,5 +1,3 @@
-import { Error } from "mongoose";
-
 export default class MongoDao {
   constructor(model) {
     this.model = model;
